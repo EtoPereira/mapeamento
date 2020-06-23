@@ -3,8 +3,6 @@ import React, { useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import InputGroup from 'react-bootstrap/InputGroup';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
 
 import covidImage from '../../image/covid.jpg'
 import city from '../../image/icons/casa.svg'
@@ -17,7 +15,6 @@ import map from '../../image/mapa.jpeg'
 import {DebounceInput} from 'react-debounce-input';
 
 import moment from 'moment'
-import { FaSearch } from 'react-icons/fa'
 
 import './styles.css';
 import { useState } from 'react';
