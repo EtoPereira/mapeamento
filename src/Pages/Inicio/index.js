@@ -59,7 +59,7 @@ export default function Inicio() {
         return (
             <div className="inicio-container">
                 <header>
-                    <img src={covidImage}></img>
+                    <img src={covidImage} alt="Papel de parede do covid"></img>
                 </header>
                 <InputGroup.Prepend>
                     {/* <InputGroup.Text><FaSearch></FaSearch></InputGroup.Text> */}
@@ -84,7 +84,7 @@ export default function Inicio() {
                             <Card.Text>
                                 {dados.city}, {dados.state}
                             </Card.Text>
-                            <Card.Img src={city} />
+                            <Card.Img src={city} alt="cidade"/>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
@@ -92,7 +92,7 @@ export default function Inicio() {
                             <Card.Title>População</Card.Title>
 
                             <Card.Text>{dados.estimated_population_2019}</Card.Text>
-                            <Card.Img src={population} />
+                            <Card.Img src={population} alt="População"/>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
@@ -100,7 +100,7 @@ export default function Inicio() {
                             <Card.Title>Casos confirmados</Card.Title>
 
                             <Card.Text>{dados.confirmed}</Card.Text>
-                            <Card.Img src={confirm} />
+                            <Card.Img src={confirm} alt="Confirmados"/>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
@@ -108,12 +108,12 @@ export default function Inicio() {
                             <Card.Title>Óbitos</Card.Title>
 
                             <Card.Text>{dados.deaths}</Card.Text>
-                            <Card.Img src={deaths} />
+                            <Card.Img src={deaths} alt="Óbitos"/>
                         </Card.Body>
                     </Card>
                 </CardGroup>
                 <div >
-                    <img className="mapa-covid"  src={map}></img>
+                    <img className="mapa-covid"  src={map} alt="Mapa"></img>
                 </div>
             </div>
         );
