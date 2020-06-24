@@ -123,7 +123,7 @@ img {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 360px){
 
     .inicio-container {
         width: 100%;
@@ -174,20 +174,33 @@ img {
     .input  {
         width: 100%;
         position: relative;
-        left: 0%;
+        left: -1%;
         text-align: center;
         border-radius: 25px;
         border-color: blue;
     }
 
     .card-group .card-img{
-        width:150px;
+        width:100px;
         position: relative;
-        bottom: 100px;
-        left: 25%;
+        bottom: 120px;
+        left: 33%;
         color: var(--border-color)
     }
 
+    .card-group .card-text {
+        text-align: center;
+        position: relative;
+        /* top: 18px; */
+        font-size: 25px;
+    }
+
+    .card-group .card-title {
+        text-align: center;
+        position: relative;
+        /* top: 18px; */
+        font-size: 25px;
+    }
     
 
   
