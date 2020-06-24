@@ -78,7 +78,7 @@ export default function Inicio() {
                 </Card>
                 <CardGroup className="card-group">
 
-                    <Card style={{ width: '18rem' }} className="card">
+                    <Card  className="card">
                         <Card.Body>
                             <Card.Title>Cidade</Card.Title>
                             <Card.Text>
@@ -87,7 +87,7 @@ export default function Inicio() {
                             <Card.Img src={city} alt="cidade"/>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '18rem' }}>
+                    <Card >
                         <Card.Body>
                             <Card.Title>População</Card.Title>
 
@@ -95,7 +95,7 @@ export default function Inicio() {
                             <Card.Img src={population} alt="População"/>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '18rem' }}>
+                    <Card >
                         <Card.Body>
                             <Card.Title>Casos confirmados</Card.Title>
 
@@ -103,7 +103,7 @@ export default function Inicio() {
                             <Card.Img src={confirm} alt="Confirmados"/>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '18rem' }}>
+                    <Card >
                         <Card.Body>
                             <Card.Title>Óbitos</Card.Title>
 

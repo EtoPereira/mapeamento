@@ -58,7 +58,7 @@ img {
 .mapa-covid {
     position: absolute;
     left: 25%;
-    top: 115%;
+    top: 120%;
     width: 50%;
     height: 500px;
     /* border: 2px solid; */
@@ -78,4 +78,117 @@ img {
     text-align: center;
     border-radius: 25px;
     border-color: blue;
+}
+
+@media screen and (max-width: 1200px) {
+    .mapa-covid {
+        position: absolute;
+        left: 25%;
+        top: 120%;
+        width: 50%;
+        height: 500px;
+        /* border: 2px solid; */
+        border-color: var(--border-color);
+        
+    }
+
+    .card-group .card-title {
+        text-align: center;
+        position: relative;
+        /* top: 18px; */
+        font-size: 15px;
+    }
+
+    .card-group .card-img{
+        width:60px;
+        position: absolute;
+        top: 0%;
+        left: 33%;
+        color: var(--border-color)
+    }
+}
+
+@media screen and (max-width: 953px){
+    .card-group .card-title {
+        text-align: center;
+        position: relative;
+        /* top: 18px; */
+        font-size: 12px;
+    }
+    .card-group .card-text {
+        text-align: center;
+        position: relative;
+        /* top: 18px; */
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .inicio-container {
+        width: 100%;
+        max-width: 1180px;
+        padding: 0 25px;
+        margin: -20px auto;
+        height: 1300px;
+        background-color: azure 
+    
+       
+    }
+    .card-group .card {
+        height: 250px;
+        border: 2px solid;
+        border-color: var(--border-color);
+        border-radius: 10px;
+
+        position: relative;
+        right: 2%;
+
+        width: 325px;
+    }
+
+    .data-atualizacao {
+        /* height: 250px; */
+        border: 2px solid;
+        border-color: var(--border-color);
+        border-radius: 10px;
+
+        position: relative;
+        right: 2%;
+
+        width: 325px;
+       
+    }
+
+    .mapa-covid {
+        position: absolute;
+        left: 0%;
+        top: 1530px;
+        width: 100%;
+        height: 500px;
+        /* border: 2px solid; */
+        border-color: var(--border-color);
+        
+    }
+
+    .input  {
+        width: 100%;
+        position: relative;
+        left: 0%;
+        text-align: center;
+        border-radius: 25px;
+        border-color: blue;
+    }
+
+    .card-group .card-img{
+        width:150px;
+        position: relative;
+        bottom: 100px;
+        left: 25%;
+        color: var(--border-color)
+    }
+
+    
+
+  
 }
